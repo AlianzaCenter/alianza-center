@@ -1,25 +1,46 @@
-<header>
-    <div class="hero">
-        <h1><span>Alianza</span> Center</h1>
-        <p class="tagline">Education • Service • Leadership</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alianza Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <p>
-            <strong>Alianza creates pathways for Hispanic and Puerto Rican communities</strong>
-            to lead, unite, and thrive by cultivating community wellbeing, cultural expression,
-            and civic engagement.
-        </p>
+<body>
+
+<!-- HEADER / NAV -->
+<header class="site-header">
+    <div class="nav-container">
+        <img src="logo.png" alt="Alianza Center Logo" class="logo">
+
+        <nav class="main-nav">
+            <a href="#about">About</a>
+            <a href="#network">Resilience Hub</a>
+            <a href="#donate">Donate</a>
+            <a href="#contact" class="nav-btn">Contact</a>
+        </nav>
     </div>
 </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#network">Resilience Hub</a>
-    <a href="#donate">Donate</a>
-    <a href="#contact">Contact</a>
-</nav>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1><span>Alianza</span> Center</h1>
+            <p class="hero-tagline">Education • Service • Leadership</p>
+            <p class="hero-text">
+                Alianza creates pathways for Hispanic and Puerto Rican communities
+                to lead, unite, and thrive by cultivating community wellbeing,
+                cultural expression, and civic engagement.
+            </p>
+        </div>
+    </div>
+</section>
 
-<section id="about">
-    <div class="info">
+<!-- ABOUT -->
+<section id="about" class="section">
+    <div class="section-inner">
         <h2>Help Us Chart the Path to a Resilient Future</h2>
         <p>
             Alianza encourages all Hispanics to enter and become an integral part
@@ -29,49 +50,62 @@
             Today we work across <strong>12 counties along the I-4 corridor</strong>,
             serving a diverse membership of over <strong>14,000 people</strong>.
             Focused on Caribbean and Latin American communities in Central Florida,
-            our story is one of resilience, hard work, cultural pride, and sustainable growth.
+            our story is one of resilience, cultural pride, and sustainable growth.
         </p>
     </div>
 </section>
 
-<section id="network">
-    <div class="info">
+<!-- NETWORK -->
+<section id="network" class="section light">
+    <div class="section-inner">
         <h2>Latino Resilience Hub Network</h2>
         <p>
-            Our Latino Resilience Hub Network strengthens community leadership,
-            climate resilience, civic engagement, and environmental stewardship
-            across Central Florida.
+            Our Latino Resilience Hub Network strengthens climate resilience,
+            civic participation, leadership development, and environmental
+            stewardship across Central Florida.
         </p>
+        <a href="#" class="primary-btn">Learn More</a>
     </div>
 </section>
 
-<section id="donate">
-    <h2>Your Gift Creates Amazing Possibilities</h2>
-    <p style="text-align:center; max-width:800px; margin:auto;">
-        Every day at Alianza Center, we witness young leaders discovering their voice,
-        families celebrating traditions, neighbors supporting neighbors, and artists
-        inspiring change. Your support makes this possible.
-    </p>
+<!-- DONATE -->
+<section id="donate" class="section donate">
+    <div class="section-inner">
+        <h2>Your Gift Creates Amazing Possibilities</h2>
+        <p>
+            Every day at Alianza Center, we witness young leaders discovering
+            their voice, families celebrating traditions, neighbors supporting
+            neighbors, and artists inspiring change.
+        </p>
 
-    <div class="donations">
-        <div class="donation">$50</div>
-        <div class="donation">$100</div>
-        <div class="donation">$250</div>
-        <div class="donation">$500</div>
+        <div class="donation-buttons">
+            <a href="#" class="donate-btn">$50</a>
+            <a href="#" class="donate-btn">$100</a>
+            <a href="#" class="donate-btn">$250</a>
+            <a href="#" class="donate-btn">$500</a>
+        </div>
     </div>
 </section>
 
+<!-- CTA -->
 <section class="cta">
     <h2>Get Involved</h2>
-    <a href="#">Donate</a>
-    <a href="#contact" class="secondary">Contact Us</a>
+    <div class="cta-buttons">
+        <a href="#" class="primary-btn">Donate</a>
+        <a href="#contact" class="secondary-btn">Contact Us</a>
+    </div>
 </section>
 
+<!-- FOOTER -->
 <footer id="contact">
     <p>Stay in the know</p>
     <p>
         Paid for by Alianza Center, www.alianzacenter.org<br>
-        © 2025 Alianza Center
-        • <a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a>
+        © 2025 Alianza Center •
+        <a href="#">Privacy Policy</a> •
+        <a href="#">Terms of Use</a>
     </p>
 </footer>
+
+</body>
+</html>
