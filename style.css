@@ -24,11 +24,12 @@ body {
 .nav-container {
     max-width: 1200px;
     margin: auto;
-    padding: 15px 20px;
+    padding: 8px 12px;   /* tighter top/bottom & left/right */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 .logo {
     height: 80px;
