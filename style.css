@@ -240,4 +240,8 @@ footer a {
 .contact-form button {
     align-self: center;
 }
+.google-form {
+    max-width: 700px;
+    margin: 40px auto;
+}
 
