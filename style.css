@@ -22,18 +22,21 @@ body {
 }
 
 .nav-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 8px 12px;   /* tighter top/bottom & left/right */
+    max-width: none;
+    margin: 0;
+    padding: 6px 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
+
 .logo {
     height: 80px;
+    display: block;
 }
+
 
 .main-nav a {
     margin-left: 25px;
