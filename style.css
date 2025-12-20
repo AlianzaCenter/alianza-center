@@ -125,7 +125,7 @@ body {
 
 .secondary-btn {
     padding: 14px 36px;
-    background: #38c3ee;
+    background: #003063;
     color: #003063;
     border-radius: 40px;
     text-decoration: none;
@@ -152,12 +152,14 @@ body {
 
 .donate-btn {
     background: white;
-    color: #003063;
+    color: #003063;        /* DARK BLUE TEXT */
     padding: 16px 30px;
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
 }
+
 
 /* CTA */
 .cta {
@@ -170,6 +172,22 @@ body {
 .cta-buttons a {
     margin: 10px;
 }
+/* FORCE CTA BUTTONS TO MATCH (LIGHT BLUE + WHITE TEXT) */
+.cta .primary-btn,
+.cta .secondary-btn {
+    background: #38c3ee !important;
+    color: #ffffff !important;
+}
+.cta .primary-btn:hover,
+.cta .secondary-btn:hover {
+    background: #2fb0da;
+}
+
+
+.cta-btn:hover {
+    background: #2fb0da;
+}
+
 
 /* FOOTER */
 footer {
